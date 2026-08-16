@@ -267,15 +267,15 @@ namespace Adv1
 
     #region Q18
 
-    public class GenericStatic<T>
-    {
-        public static int Counter;
+    //public class GenericStatic<T>
+    //{
+    //    public static int Counter;
 
-        public void Increment()
-        {
-            Counter++;
-        }
-    }
+    //    public void Increment()
+    //    {
+    //        Counter++;
+    //    }
+    //}
 
     #endregion
 
