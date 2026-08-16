@@ -195,25 +195,25 @@ namespace Adv1
 
     #region Q14
 
-    public class SafeList<T>
-    {
-        private readonly List<T> items = new List<T>();
+    //public class SafeList<T>
+    //{
+    //    private readonly List<T> items = new List<T>();
 
-        public void Add(T item)
-        {
-            items.Add(item);
-        }
+    //    public void Add(T item)
+    //    {
+    //        items.Add(item);
+    //    }
 
-        public T Get(int index)
-        {
-            if (index < 0 || index >= items.Count)
-            {
-                return default;
-            }
+    //    public T Get(int index)
+    //    {
+    //        if (index < 0 || index >= items.Count)
+    //        {
+    //            return default;
+    //        }
 
-            return items[index];
-        }
-    }
+    //        return items[index];
+    //    }
+    //}
 
     #endregion
 
