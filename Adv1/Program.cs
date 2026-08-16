@@ -149,18 +149,18 @@ namespace Adv1
 
     #region Q11
 
-    public class Animal
-    {
-        public string Name { get; set; }
-    }
+    //public class Animal
+    //{
+    //    public string Name { get; set; }
+    //}
 
-    public class BaseClassConstraintExample<T> where T : Animal
-    {
-        public string GetName(T animal)
-        {
-            return animal.Name;
-        }
-    }
+    //public class BaseClassConstraintExample<T> where T : Animal
+    //{
+    //    public string GetName(T animal)
+    //    {
+    //        return animal.Name;
+    //    }
+    //}
 
     #endregion
 
