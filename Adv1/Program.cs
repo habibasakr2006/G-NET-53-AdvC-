@@ -236,18 +236,18 @@ namespace Adv1
 
     #region Q16
 
-    public interface IConsumer<in T>
-    {
-        void Consume(T item);
-    }
+    //public interface IConsumer<in T>
+    //{
+    //    void Consume(T item);
+    //}
 
-    public class AnimalConsumer : IConsumer<Animal>
-    {
-        public void Consume(Animal item)
-        {
-            Console.WriteLine(item.Name);
-        }
-    }
+    //public class AnimalConsumer : IConsumer<Animal>
+    //{
+    //    public void Consume(Animal item)
+    //    {
+    //        Console.WriteLine(item.Name);
+    //    }
+    //}
 
     #endregion
 
