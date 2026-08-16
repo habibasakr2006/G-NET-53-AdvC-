@@ -166,18 +166,18 @@ namespace Adv1
 
     #region Q12
 
-    public class MultipleConstraints<T> where T : class, IEntity, new()
-    {
-        public T Create()
-        {
-            return new T();
-        }
+    //public class MultipleConstraints<T> where T : class, IEntity, new()
+    //{
+    //    public T Create()
+    //    {
+    //        return new T();
+    //    }
 
-        public int GetId(T item)
-        {
-            return item.Id;
-        }
-    }
+    //    public int GetId(T item)
+    //    {
+    //        return item.Id;
+    //    }
+    //}
 
     #endregion
 
