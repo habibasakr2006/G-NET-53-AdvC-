@@ -14,20 +14,20 @@ namespace Adv1
 
     #region Q2
 
-    public class Container<T>
-    {
-        private T value;
+    //public class Container<T>
+    //{
+    //    private T value;
 
-        public void Add(T item)
-        {
-            value = item;
-        }
+    //    public void Add(T item)
+    //    {
+    //        value = item;
+    //    }
 
-        public T Get()
-        {
-            return value;
-        }
-    }
+    //    public T Get()
+    //    {
+    //        return value;
+    //    }
+    //}
 
     #endregion
 
