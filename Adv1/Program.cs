@@ -75,13 +75,13 @@ namespace Adv1
 
     #region Q6
 
-    public interface IRepository<T>
-    {
-        void Add(T item);
-        T Get(int id);
-        void Update(T item);
-        void Delete(int id);
-    }
+    //public interface IRepository<T>
+    //{
+    //    void Add(T item);
+    //    T Get(int id);
+    //    void Update(T item);
+    //    void Delete(int id);
+    //}
 
     #endregion
 
