@@ -219,18 +219,18 @@ namespace Adv1
 
     #region Q15
 
-    public interface IProducer<out T>
-    {
-        T Get();
-    }
+    //public interface IProducer<out T>
+    //{
+    //    T Get();
+    //}
 
-    public class AnimalProducer : IProducer<Animal>
-    {
-        public Animal Get()
-        {
-            return new Animal();
-        }
-    }
+    //public class AnimalProducer : IProducer<Animal>
+    //{
+    //    public Animal Get()
+    //    {
+    //        return new Animal();
+    //    }
+    //}
 
     #endregion
 
