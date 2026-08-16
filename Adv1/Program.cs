@@ -281,22 +281,22 @@ namespace Adv1
 
     #region Q19
 
-    public class GenericBase<T>
-    {
-        public T Value { get; set; }
+    //public class GenericBase<T>
+    //{
+    //    public T Value { get; set; }
 
-        public GenericBase(T value)
-        {
-            Value = value;
-        }
-    }
+    //    public GenericBase(T value)
+    //    {
+    //        Value = value;
+    //    }
+    //}
 
-    public class DerivedClass : GenericBase<int>
-    {
-        public DerivedClass(int value) : base(value)
-        {
-        }
-    }
+    //public class DerivedClass : GenericBase<int>
+    //{
+    //    public DerivedClass(int value) : base(value)
+    //    {
+    //    }
+    //}
 
     #endregion
 
