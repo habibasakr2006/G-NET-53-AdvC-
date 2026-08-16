@@ -127,23 +127,23 @@ namespace Adv1
 
     #region Q10
 
-    public interface IEntity
-    {
-        int Id { get; set; }
-    }
+    //public interface IEntity
+    //{
+    //    int Id { get; set; }
+    //}
 
-    public class Entity : IEntity
-    {
-        public int Id { get; set; }
-    }
+    //public class Entity : IEntity
+    //{
+    //    public int Id { get; set; }
+    //}
 
-    public class InterfaceConstraintExample<T> where T : IEntity
-    {
-        public int GetId(T item)
-        {
-            return item.Id;
-        }
-    }
+    //public class InterfaceConstraintExample<T> where T : IEntity
+    //{
+    //    public int GetId(T item)
+    //    {
+    //        return item.Id;
+    //    }
+    //}
 
     #endregion
 
