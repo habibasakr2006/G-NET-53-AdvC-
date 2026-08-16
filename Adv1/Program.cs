@@ -5,10 +5,10 @@ namespace Adv1
 {
     #region Q1
 
-    public class GenericClass<T>
-    {
-        public T Value { get; set; }
-    }
+    //public class GenericClass<T>
+    //{
+    //    public T Value { get; set; }
+    //}
 
     #endregion
 
