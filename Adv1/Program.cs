@@ -302,65 +302,65 @@ namespace Adv1
 
     #region Q20
 
-    public class Cache<TKey, TValue>
-    {
-        private class CacheItem
-        {
-            public TValue Value { get; set; }
-            public DateTime ExpirationTime { get; set; }
-        }
+    //public class Cache<TKey, TValue>
+    //{
+    //    private class CacheItem
+    //    {
+    //        public TValue Value { get; set; }
+    //        public DateTime ExpirationTime { get; set; }
+    //    }
 
-        private readonly Dictionary<TKey, CacheItem> cache =
-            new Dictionary<TKey, CacheItem>();
+    //    private readonly Dictionary<TKey, CacheItem> cache =
+    //        new Dictionary<TKey, CacheItem>();
 
-        public void Add(TKey key, TValue value, TimeSpan expiration)
-        {
-            cache[key] = new CacheItem
-            {
-                Value = value,
-                ExpirationTime = DateTime.Now.Add(expiration)
-            };
-        }
+    //    public void Add(TKey key, TValue value, TimeSpan expiration)
+    //    {
+    //        cache[key] = new CacheItem
+    //        {
+    //            Value = value,
+    //            ExpirationTime = DateTime.Now.Add(expiration)
+    //        };
+    //    }
 
-        public TValue Get(TKey key)
-        {
-            if (!cache.ContainsKey(key))
-            {
-                return default;
-            }
+    //    public TValue Get(TKey key)
+    //    {
+    //        if (!cache.ContainsKey(key))
+    //        {
+    //            return default;
+    //        }
 
-            CacheItem item = cache[key];
+    //        CacheItem item = cache[key];
 
-            if (DateTime.Now >= item.ExpirationTime)
-            {
-                cache.Remove(key);
-                return default;
-            }
+    //        if (DateTime.Now >= item.ExpirationTime)
+    //        {
+    //            cache.Remove(key);
+    //            return default;
+    //        }
 
-            return item.Value;
-        }
+    //        return item.Value;
+    //    }
 
-        public void Remove(TKey key)
-        {
-            cache.Remove(key);
-        }
+    //    public void Remove(TKey key)
+    //    {
+    //        cache.Remove(key);
+    //    }
 
-        public bool Contains(TKey key)
-        {
-            if (!cache.ContainsKey(key))
-            {
-                return false;
-            }
+    //    public bool Contains(TKey key)
+    //    {
+    //        if (!cache.ContainsKey(key))
+    //        {
+    //            return false;
+    //        }
 
-            if (DateTime.Now >= cache[key].ExpirationTime)
-            {
-                cache.Remove(key);
-                return false;
-            }
+    //        if (DateTime.Now >= cache[key].ExpirationTime)
+    //        {
+    //            cache.Remove(key);
+    //            return false;
+    //        }
 
-            return true;
-        }
-    }
+    //        return true;
+    //    }
+    //}
 
     #endregion
 }
