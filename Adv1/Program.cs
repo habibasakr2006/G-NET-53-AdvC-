@@ -87,15 +87,15 @@ namespace Adv1
 
     #region Q7
 
-    public class StructExample<T> where T : struct
-    {
-        public T Value { get; set; }
+    //public class StructExample<T> where T : struct
+    //{
+    //    public T Value { get; set; }
 
-        public StructExample(T value)
-        {
-            Value = value;
-        }
-    }
+    //    public StructExample(T value)
+    //    {
+    //        Value = value;
+    //    }
+    //}
 
     #endregion
 
