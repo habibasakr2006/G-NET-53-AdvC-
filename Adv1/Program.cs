@@ -115,13 +115,13 @@ namespace Adv1
 
     #region Q9
 
-    public class NewConstraintExample<T> where T : new()
-    {
-        public T Create()
-        {
-            return new T();
-        }
-    }
+    //public class NewConstraintExample<T> where T : new()
+    //{
+    //    public T Create()
+    //    {
+    //        return new T();
+    //    }
+    //}
 
     #endregion
 
