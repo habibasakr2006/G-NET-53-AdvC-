@@ -63,13 +63,13 @@ namespace Adv1
 
     #region Q5
 
-    public class MaxFinder
-    {
-        public static T FindMax<T>(T first, T second) where T : IComparable<T>
-        {
-            return first.CompareTo(second) > 0 ? first : second;
-        }
-    }
+    //public class MaxFinder
+    //{
+    //    public static T FindMax<T>(T first, T second) where T : IComparable<T>
+    //    {
+    //        return first.CompareTo(second) > 0 ? first : second;
+    //    }
+    //}
 
     #endregion
 
