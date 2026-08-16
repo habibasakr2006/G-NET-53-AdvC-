@@ -183,13 +183,13 @@ namespace Adv1
 
     #region Q13
 
-    public class DefaultExample<T>
-    {
-        public T GetDefault()
-        {
-            return default;
-        }
-    }
+    //public class DefaultExample<T>
+    //{
+    //    public T GetDefault()
+    //    {
+    //        return default;
+    //    }
+    //}
 
     #endregion
 
