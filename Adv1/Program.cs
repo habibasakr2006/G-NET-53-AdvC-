@@ -101,15 +101,15 @@ namespace Adv1
 
     #region Q8
 
-    public class ClassExample<T> where T : class
-    {
-        public T Value { get; set; }
+    //public class ClassExample<T> where T : class
+    //{
+    //    public T Value { get; set; }
 
-        public ClassExample(T value)
-        {
-            Value = value;
-        }
-    }
+    //    public ClassExample(T value)
+    //    {
+    //        Value = value;
+    //    }
+    //}
 
     #endregion
 
