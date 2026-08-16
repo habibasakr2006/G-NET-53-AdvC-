@@ -49,15 +49,15 @@ namespace Adv1
 
     #region Q4
 
-    public class GenericMethods
-    {
-        public static void Swap<T>(ref T first, ref T second)
-        {
-            T temp = first;
-            first = second;
-            second = temp;
-        }
-    }
+    //public class GenericMethods
+    //{
+    //    public static void Swap<T>(ref T first, ref T second)
+    //    {
+    //        T temp = first;
+    //        first = second;
+    //        second = temp;
+    //    }
+    //}
 
     #endregion
 
