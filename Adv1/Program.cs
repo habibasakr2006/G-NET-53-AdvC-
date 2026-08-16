@@ -253,15 +253,15 @@ namespace Adv1
 
     #region Q17
 
-    public interface ICovariant<out T>
-    {
-        T Get();
-    }
+    //public interface ICovariant<out T>
+    //{
+    //    T Get();
+    //}
 
-    public interface IContravariant<in T>
-    {
-        void Set(T item);
-    }
+    //public interface IContravariant<in T>
+    //{
+    //    void Set(T item);
+    //}
 
     #endregion
 
